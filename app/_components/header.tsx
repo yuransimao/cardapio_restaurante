@@ -90,15 +90,17 @@ const Header = () => {
           </div>
 
           <div className="space-y-2">
+          <Link href="/">
             <Button
               variant="ghost"
               className="w-full justify-start space-x-3 rounded-full text-sm font-normal"
             >
-              <Link href="/">
+             
               <HomeIcon size={16} />
               <span className="block">Início</span>
-              </Link>
+             
             </Button>
+            </Link >
 
             {data?.user && (
               <>
