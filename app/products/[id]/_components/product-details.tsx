@@ -1,7 +1,7 @@
 "use client";
 
 import Cart from "@/app/_components/cart";
-import DeliveryInfo from "@/app/_components/delivery-info";
+
 import DiscountBadge from "@/app/_components/discount-badge";
 import ProductList from "@/app/_components/product-list";
 import {
@@ -146,7 +146,7 @@ const ProductDetails = ({
         </div>
 
         <div className="px-5">
-          <DeliveryInfo restaurant={product.restaurant} />
+         
         </div>
 
         <div className="mt-6 space-y-3 px-5">
